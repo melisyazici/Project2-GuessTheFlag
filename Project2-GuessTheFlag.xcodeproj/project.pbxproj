@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1594C01B28E4CDCB00B29086 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1594C01B28E4CDCB00B29086 /* Project2-GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project2-GuessTheFlag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1594C01E28E4CDCB00B29086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1594C02028E4CDCB00B29086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1594C02228E4CDCB00B29086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1594C01C28E4CDCB00B29086 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1594C01B28E4CDCB00B29086 /* Project2.app */,
+				1594C01B28E4CDCB00B29086 /* Project2-GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1594C01A28E4CDCB00B29086 /* Project2 */ = {
+		1594C01A28E4CDCB00B29086 /* Project2-GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1594C02F28E4CDCD00B29086 /* Build configuration list for PBXNativeTarget "Project2" */;
+			buildConfigurationList = 1594C02F28E4CDCD00B29086 /* Build configuration list for PBXNativeTarget "Project2-GuessTheFlag" */;
 			buildPhases = (
 				1594C01728E4CDCB00B29086 /* Sources */,
 				1594C01828E4CDCB00B29086 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Project2;
+			name = "Project2-GuessTheFlag";
 			productName = Project2;
-			productReference = 1594C01B28E4CDCB00B29086 /* Project2.app */;
+			productReference = 1594C01B28E4CDCB00B29086 /* Project2-GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1594C01628E4CDCB00B29086 /* Build configuration list for PBXProject "Project2" */;
+			buildConfigurationList = 1594C01628E4CDCB00B29086 /* Build configuration list for PBXProject "Project2-GuessTheFlag" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1594C01A28E4CDCB00B29086 /* Project2 */,
+				1594C01A28E4CDCB00B29086 /* Project2-GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +293,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +322,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1594C01628E4CDCB00B29086 /* Build configuration list for PBXProject "Project2" */ = {
+		1594C01628E4CDCB00B29086 /* Build configuration list for PBXProject "Project2-GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1594C02D28E4CDCD00B29086 /* Debug */,
@@ -348,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1594C02F28E4CDCD00B29086 /* Build configuration list for PBXNativeTarget "Project2" */ = {
+		1594C02F28E4CDCD00B29086 /* Build configuration list for PBXNativeTarget "Project2-GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1594C03028E4CDCD00B29086 /* Debug */,
